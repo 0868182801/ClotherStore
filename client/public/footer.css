@@ -1,0 +1,136 @@
+footer{
+    border-top: 1px solid #D1D2D4;
+    width: 100%;
+    justify-content: space-between;
+}
+.main-footer{
+    padding-top: 50px;
+    display: flex;
+    margin: 0 45px 0 45px;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #D1D2D4;
+}
+.footer-left{
+    max-width: 27.05%;
+    width: 100%;
+}
+.top-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bottom-left{
+    font-size: 17px;
+    line-height: 24px;
+    color: #3E3E3F;
+    font-style: inherit;
+}
+.bottom-left p{
+    padding: 10px;
+}
+.hotline{
+    padding-top: 25px;
+}
+.hotline a{
+    background: #221F20;
+    border-radius: 16px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7F8F9;
+    padding: 16px 24px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.footer-center{
+    max-width: 42.2%;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.footer-center ul{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #221F20;
+    margin-bottom: 20px;
+}
+.footer-center ul > li{
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 50;
+    line-height: 24px;
+    color: #57585A;
+    margin-bottom: 16px;
+    display: block;
+}
+.footer-right{
+    max-width: 23.75%;
+    width: 100%;
+}
+
+.form-footer{
+    background: #FFFFFF;
+    border: 6px solid #E7E8E9;
+    border-radius: 56px 0px;
+    padding: 32px 28px;
+    margin-bottom: 32px;
+}
+.form-footer p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    max-width: 80%;
+    margin-bottom: 8px;
+}
+.submit1{
+    display: flex;
+}
+.submit{
+    display: flex;
+    justify-content: space-around;
+}
+.submit1__email{
+    border: 0;
+    outline-style: none;
+    border-bottom: 1px solid #BCBDC0;
+    font-size: 14px;
+    line-height: 24px;
+    color: #221F20;
+    padding: 0 12px 10px;
+}
+.submit1__đk{
+    background: #FFF;
+    border: 1px solid #221F20;
+    box-sizing: border-box;
+    border-radius: 24px 0px;
+    margin-right: 0;
+    cursor: pointer;
+    font-size: 16px;
+    width: 120px;
+    line-height: 20px;
+    text-align: center;
+    color: #221F20;
+    padding: 15px 15px;
+    position: relative;
+    z-index: 2;
+}
+.submit1__đk:hover{
+    background: #000;
+    color: #ccc;
+}
+.image__2 img{
+    display: inline-block;
+    margin-right: 19px;
+}
+.end{
+    font-size: 16px;
+    line-height: 20px;
+    color: #57585A;
+    text-align: center;
+    padding: 24px 0 ;
+}

@@ -1,0 +1,50 @@
+.sanpham_top{
+    display: flex;
+    padding: 50px 0px;
+    justify-content: space-between;
+}
+:root{
+    --blue-color:#5073FB;
+}
+.a_btn{
+        text-decoration: none;
+    color: black;
+}
+
+.btn_them{
+    height: 36px;
+    border: none;
+    background: var(--blue-color) ;
+    color: white;
+}
+.btn_them:hover{
+    opacity: 0.8;
+}
+.btn_them a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 21px 20px;
+}
+.btn_them a:hover{
+    color: black;
+}
+.post_sanpham{
+    padding: 50px 0;
+}
+.post_sanpham label{
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.post_sanpham input{
+    width: 50%;    
+    margin: 10px 0;
+    height: 40px;
+    padding: 0 10px;
+}
+.table tbody td{
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+}
